@@ -1,5 +1,5 @@
 import { useGetSimilarMovieQuery } from "../../../store/tmdbApi";
-import type { MovieCard as Movie } from "../../../store/tmdbApi.types";
+import type { MovieCardType as Movie } from "../../../store/tmdbApi.types";
 import { MovieCard } from "../../../common/components/MovieCard/MovieCard";
 import s from "./SimilarMovies.module.css";
 

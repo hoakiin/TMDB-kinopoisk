@@ -1,15 +1,14 @@
 import { useNavigate } from "react-router";
-import type { MovieCard as Movie } from "../../../store/tmdbApi.types";
 import { getFavorites, saveFavorites } from "../../utils";
 import { FavoriteButton } from "./FavoriteButton/FavoriteButton";
 import s from "./MovieCard.module.css";
-
-type Props = {
-  movie: Movie;
-};
-
 import { useEffect, useState } from "react";
 import type { FavoriteMovie } from "../../utils/favorites";
+import type { MovieCardType } from "../../../store/tmdbApi.types";
+
+type Props = {
+  movie: Pick<MovieCardType, "id" | "title" | "poster_path" | "vote_average">;
+};
 
 export const MovieCard = ({ movie }: Props) => {
   const navigate = useNavigate();
@@ -56,8 +55,8 @@ export const MovieCard = ({ movie }: Props) => {
   };
 
   const onPosterClickHandler = (id: number) => {
-    navigate(`/movie/${id}`)
-  }
+    navigate(`/movie/${id}`);
+  };
 
   return (
     <div onClick={() => onPosterClickHandler(movie.id)}>

@@ -1,4 +1,4 @@
-import type { MovieCard as Movie } from "../../../store/tmdbApi.types";
+import type { MovieCardType as Movie } from "../../../store/tmdbApi.types";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import { SearchForm } from "../../../common/components/SearchForm/SearchForm";

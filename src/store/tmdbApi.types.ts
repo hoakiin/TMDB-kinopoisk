@@ -19,7 +19,7 @@ export type MovieListParams = z.infer<typeof MovieListParamsSchema>;
 
 /* MODELS */
 
-export type MovieCard = z.infer<typeof MovieCardSchema>;
+export type MovieCardType = z.infer<typeof MovieCardSchema>;
 
 export type Dates = z.infer<typeof DatesSchema>;
 
