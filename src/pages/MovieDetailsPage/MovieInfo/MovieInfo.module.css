@@ -1,0 +1,117 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.backBtn {
+  padding: 4px 15px;
+  background: var(--btn-bg);
+  color: var(--text-color);
+  border: 1px solid var(--btn-border-color);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.backBtn:hover {
+  background: var(--btn-hover);
+}
+
+.content {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.posterWrapper {
+  width: 280px;
+  min-width: 280px;
+  border-radius: 16px;
+  overflow: hidden;
+  aspect-ratio: 2 / 3;
+  background-color: var(--header-bg);
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.noPoster {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--header-bg);
+  color: var(--btn-border-color);
+  font-size: 16px;
+}
+
+.infoContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.title span {
+  font-size: 20px;
+  color: var(--btn-border-color);
+}
+
+.meta {
+  display: flex;
+  gap: 16px;
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.genre {
+  color: var(--text-color);
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--genre-bg);
+  font-size: 14px;
+}
+
+.overview {
+  line-height: 1.6;
+  color: var(--text-color);
+  max-width: 700px;
+  font-size: 18px;
+}

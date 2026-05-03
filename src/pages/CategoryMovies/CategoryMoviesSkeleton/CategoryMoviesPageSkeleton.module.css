@@ -1,0 +1,42 @@
+.wrapper {
+  width: 100%;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.skeletonCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.posterWrapper {
+  width: 100%;
+  aspect-ratio: 500 / 750;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

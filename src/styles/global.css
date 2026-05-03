@@ -1,0 +1,59 @@
+:root {
+  --bg-color: #ffffff;
+  --surface-color: #ffffff;
+  --filter-color: #ffffff;
+  --header-bg: #F3F4F6;
+  --card-bg: #ffffff;
+  --card-hover: #eef4f8;
+  --btn-bg: #f4f7fa;
+  --disabled-btn: rgba(0, 130, 169, 0.792);
+  --btn-hover: #eeeeee;
+  --pagination-bg: #eeeeee;
+  --pagination-hover: #eeeeee;
+  --genre-bg: #e4e4e4d6;
+
+  --text-color: #0d253f;
+  --text-secondary: #4b5b6b;
+
+  --border-color: rgba(13, 37, 63, 0.08);
+  --btn-border-color: rgb(183, 183, 183);
+  --shadow-color: rgba(13, 37, 63, 0.08);
+
+  --primary-color: #01b4e4;
+  --primary-hover: #0199c2;
+}
+
+body[data-theme="dark"] {
+  --bg-color: #08111a;
+  --surface-color: #0d1b2a;
+  --filter-color: #18324a;
+  --header-bg: #0d1b2a;
+  --card-bg: #112436;
+  --card-hover: #18324a;
+  --btn-bg: #08111a;
+  --disabled-btn: #04637F;
+  --btn-hover: #0d1b2a;
+  --pagination-bg: #112436;
+  --pagination-hover: #18324a;
+  --genre-bg: #18324a;
+
+  --text-color: #f5f7fa;
+  --text-secondary: #aeb9c5;
+
+  --border-color: rgba(255, 255, 255, 0.08);
+  --btn-border-color: rgba(255, 255, 255, 0.153);
+  --shadow-color: rgba(0, 0, 0, 0.35);
+
+  --primary-color: #01b4e4;
+  --primary-hover: #0199c2;
+}
+
+#root {
+  background: var(--bg-color);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+} 

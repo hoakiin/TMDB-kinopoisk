@@ -1,0 +1,31 @@
+.container {
+  padding: 40px 24px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.message {
+  font-size: 16px;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.retryBtn {
+  padding: 8px 20px;
+  color: white;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.retryBtn:hover {
+  background: var(--primary-hover);
+}

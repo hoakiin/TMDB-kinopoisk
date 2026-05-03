@@ -1,0 +1,17 @@
+.layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.sidebar {
+  padding: 20px 22px;
+  width: 290px;
+  flex-shrink: 0;
+  background-color: var(--header-bg);
+  border-radius: 12px;
+}
+
+.content {
+  flex: 1;
+}

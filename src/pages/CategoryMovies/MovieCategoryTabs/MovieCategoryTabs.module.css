@@ -1,0 +1,33 @@
+.tabs {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  flex-wrap: wrap;
+}
+
+.tabButton {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: var(--btn-bg);
+  color: var(--text-color);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+}
+
+.tabButton:hover {
+  background: var(--btn-hover);
+}
+
+.active {
+  font-weight: 500;
+  background: var(--primary-color);
+  color: #f5f7fa;
+  border-color: transparent;
+}
+
+.active:hover {
+  background: var(--primary-hover);
+}

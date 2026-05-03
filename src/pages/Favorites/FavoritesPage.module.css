@@ -1,0 +1,15 @@
+h2 {
+    margin: 20px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.emptyPage {
+    margin: 20px 0;
+    color: var(--text-secondary);
+}

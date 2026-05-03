@@ -1,0 +1,32 @@
+.section {
+  margin: 32px 0;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.viewMoreBtn {
+  padding: 5px 13px;
+  color: var(--text-color);
+  background: var(--btn-bg);
+  border: 1px solid var(--btn-border-color);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 13px;
+}
+
+.viewMoreBtn:hover {
+  background: var(--btn-hover);
+  border-color: var(--btn-border-color);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
