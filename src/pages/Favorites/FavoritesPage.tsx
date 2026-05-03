@@ -1,5 +1,5 @@
 import s from "./FavoritesPage.module.css";
-import type { FavoriteMovie as Movie } from "../../common/utils";
+import type { FavoriteMovie as Movie } from "../../common/utils/favorites";
 import { useEffect, useState } from "react";
 import { MovieCard } from "../../common/components/MovieCard/MovieCard";
 import { getFavorites } from "../../common/utils";
